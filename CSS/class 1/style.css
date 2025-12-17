@@ -1,0 +1,50 @@
+/* universal
+id
+class
+type
+
+child selector
+general sibling selector
+adjacent sibling selector
+descendant selector  */
+
+
+
+/* * {
+    background-color: black;
+    color: white;
+} */
+
+/* .def, .abc {
+    background-color: bisque;
+} */
+
+/* #anti {
+    background-color: aqua;
+    text-align: center;
+}
+
+#banti {
+    background-color: pink;
+} */
+
+
+/* h1 {
+    background-color: black;
+    color: white;
+} */
+/*
+
+a {
+    text-decoration: none;
+} */
+
+p {
+
+    /* text-align: justify; */
+    /* text-decoration: underline; */
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    /* font-style: italic; */
+    /* font-weight: bolder; */
+    /* font-size: 100%; */
+}
