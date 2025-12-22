@@ -1,0 +1,67 @@
+h1 {
+    /* background-color: rgba(255, 0, 0, 0.4);
+    color: rgba(0, 255, 0, 1); */
+    /* background-color: red; */
+    /* opacity: 0.3; */
+    /* background-color: rgb(32, 57, 79); */
+}
+
+.main {
+
+    /* font-size: x-large;
+    background-color: black;
+    color: red;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline;
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+    border: 10px groove red;
+    text-shadow: 10px 10px 10px purple;
+    box-shadow: 0px 0px 10px 10px yellow; */
+
+
+    /* border-radius: 360px; */
+    /* padding: 69px; */
+
+    /* border-color: rebeccapurple;
+    border-width: 5px;
+    border-style: groove; */
+
+    /* height: 150px; */
+    /* overflow: scroll; */
+    /* margin-left: 400px; */
+    /* margin: 20px 30px 40px 50px; */
+}
+
+/* body {
+    background-color: gray;
+} */
+
+
+.card {
+    border: 3px solid black;
+    width: 20%;
+    background-color: aqua;
+    text-align: center;
+    padding: 3px;
+}
+
+.parent {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.card > img {
+    width: 100%;
+    background-color: black;
+    height: 200px;
+    object-fit: contain;
+}
+

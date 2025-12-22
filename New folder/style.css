@@ -1,0 +1,16 @@
+/* ul li {
+    background-color: black;
+    color: antiquewhite;
+} */
+
+/* h1>p {
+    background-color: aqua;
+} */
+/* 
+.main ~ p{
+       background-color: blue;
+} */
+
+h1~p{
+        background-color: aqua;
+}
