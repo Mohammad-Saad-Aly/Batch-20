@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: rgb(48, 47, 47);
+    display: flex;
+    color: white;
+    font-size: xx-large;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.secChild {
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+}
+
+
+.section {
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: space-around;
+    padding: 30px;
+    font-size: large;
+} 
+
+.secFirst {
+    width: 40%;
+}
+
+.secSec {
+    width: 30%;
+}
+
+
+.btn {
+    width: 100px;
+    padding: 10px;
+    background-color: rgb(235, 184, 91);
+    font-size: 12px;
+    border-radius: 7px;
+    color: white;
+    border: none;
+}
+
+.dabbey {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.footer {
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card > img {
+    width: 30%;
+}
+
+.f {
+    width: 30%;
+}
+
+.child {
+    width: 20%;
+    text-align: left;
+}
+
+.child > img {
+    width: 100%;
+}

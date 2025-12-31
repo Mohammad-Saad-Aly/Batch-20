@@ -1,0 +1,38 @@
+p {
+    text-transform: capitalize;
+    text-align: justify;
+    text-indent: 50px;
+    /* text-shadow: 10px 10px 10px red; */
+    /* line-height: 50px; */
+    /* word-spacing: 20px; */
+}
+
+a {
+    visibility: hidden;
+}
+
+input:focus {
+    background-color: yellow;
+}
+
+input:active{
+    background-color: red;
+}
+
+/* input:hover {
+    background-color: black;
+    color: white;
+} */
+
+a:link {
+    color: green;
+}
+
+a:visited {
+    color: red;
+}
+
+p::first-line {
+    font-size: 60px;
+    color: rebeccapurple;
+}

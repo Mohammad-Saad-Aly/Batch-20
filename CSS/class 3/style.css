@@ -64,3 +64,18 @@ ul > li {
     display: flex;
     justify-content: space-around;
 }
+
+/* .pt-serif-bold {
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+} */
+
+/* @font-face {
+    font-family: "Saad";
+    src: url("./PT_Serif/PTSerif-BoldItalic.ttf");
+}
+
+p {
+    font-family: "Saad";
+} */
