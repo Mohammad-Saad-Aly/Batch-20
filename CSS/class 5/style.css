@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+th {
+    color: gold;
+}
+
+table {
+    font-size: x-large;
+    width: 50%;
+    border: 2px solid aqua;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    /* border-collapse: collapse; */
+    border-spacing: 10px;
+}
+
+td, th {
+    border-radius: 5px;
+    /* border: 1px solid aqua; */
+    padding: 10px;
+}
+
+td:hover {
+    background-color: aqua;
+    color: black;
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+
+li {
+    /* list-style: inside circle; */
+    /* list-style-type: upper-roman; */
+    /* list-style-position: outside; */
+}
+
+/* ul {
+    background-color: aqua;
+    text-align: center;
+} */
+
