@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    background-image: url('./images/envelop.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+fieldset {
+    width: 40%;
+    border: 1px solid gold;
+    padding: 20px;
+    text-align: center;
+    font-size: large;
+    color: white;
+}
+
+legend {
+    font-size: xx-large;
+    text-align: center;
+    padding: 15px;
+}
+
+button {
+    width: 30%;
+    padding: 8px;
+    border: none;
+    background-color: black;
+    color: greenyellow;
+    font-size: large;
+    border-radius: 10px;
+}
+
+input, textarea {
+    width: 30%;
+    padding: 6px;
+    border: 1px solid gold;
+}
+
+label {
+    font-size: x-large;
+    display: inline-block;
+    width: 130px;
+    text-align: left;
+}
+
+#email {
+    background-image: url("./images/envelop.png");
+    background-size: 25px;
+    padding-left: 27px;
+    background-position: left;
+    background-position-x: 2%;
+    background-repeat: no-repeat;
+}
