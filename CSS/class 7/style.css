@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 97vh;
+    border: 10px groove black;
+}
+
+.main {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    margin-top: 60px;
+}
+
+.first {
+    text-transform: uppercase;
+    font-size: xx-large;
+}
+
+.navbar {
+    border-top: 2px solid black ;
+    border-bottom: 2px solid black ;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    font-size: x-large;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+}
+
+.images div {
+    width: 33.33%;
+}
+
+span {
+    font-size: 50px;
+    color: gray;
+}
+
+
+.images div img {
+    object-fit: cover;
+    width: 100%;
+}
+
+div p {
+    text-transform: uppercase;
+    word-spacing: 10px;
+    line-height: 30px;
+}
