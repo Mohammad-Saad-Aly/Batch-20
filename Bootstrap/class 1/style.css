@@ -1,0 +1,17 @@
+/* .bg-dark{
+    background-color: pink !important;
+} */
+
+/* .abc {
+    background-color: aqua;
+} */
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: aqua;
+}
