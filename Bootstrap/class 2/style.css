@@ -1,0 +1,19 @@
+ul {
+    width: 70%;
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+
+
+.navbar{
+    border-bottom: 1px solid gray;
+    position: fixed;
+    width: 100%;
+}
+
+.main-two {
+    width: 50%;
+    padding: 30px;
+    text-align: center;
+}
