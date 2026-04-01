@@ -17,11 +17,48 @@
 // names.shift()
 // names.shift()
 
-var names = ["saad", "ali", "fahad", "rehman", "bilal"]
+// var names = ["saad", "ali", "fahad", "rehman", "bilal"]
 
-names.splice(1, 3, "khizer")
+// names.splice(1, 3, "khizer")
 
-console.log(names)
+// console.log(names)
+
+
+
+var fruits = ['apple', 'banana', 'mango', 'cherry', 'orange']
+
+
+document.writeln(
+    `
+    0) ${fruits[0]} <br>
+    1) ${fruits[1]} <br>
+    2) ${fruits[2]} <br>
+    3) ${fruits[3]} <br>
+    4) ${fruits[4]} <br>
+    
+    `
+)
+
+// var newArray = fruits.slice(0, -3)
+
+
+// fruits.splice(2, 3, "pineapple")
+
+
+// var arr = []
+
+// arr[0] = "saad"
+// arr[1] = "ali"
+
+
+// var fruits = new Array()
+
+// fruits.push("apple")
+
+// console.log(fruits)
+
+
+
 
 
 
