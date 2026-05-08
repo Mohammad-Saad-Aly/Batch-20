@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    body {
+        background: linear-gradient(60deg, grey, teal);
+    }
+
+    .main-div {
+        border: 6px solid black;
+        width: 20%;
+        margin: auto;
+        margin-top: 100px;
+        padding: 30px;
+        text-align: center;
+        border-radius: 30px;
+        background: linear-gradient(60deg, grey, teal);
+    }
+
+    button {
+        background-color: gray;
+        color: white;
+        border: 3px groove black;
+        border-radius: 10px;
+        margin: 10px;
+        width: 50px;
+        padding: 4px;
+    }
+
+    .big-button {
+        width: 100px;
+    }
+
+    input {
+        width: 100%;
+        font-size: xx-large;
+    }
+
+    button:hover {
+        transform: scale(1.2);
+        transition: 30ms;
+    }
+
+</style>
+
+<body>
+
+    <div class="main-div">
+        <div>
+            <input id="calc" readonly type="text">
+        </div>
+
+        <br>
+
+        <div>
+            <button onclick="clrAll()" class="big-button">CE</button>
+            <button onclick="rajput()" class="big-button">C</button>
+        </div>
+
+        <div>
+            <button onclick="btnClick(7)">7</button>
+            <button onclick="btnClick(8)">8</button>
+            <button onclick="btnClick(9)">9</button>
+            <button onclick="btnClick('+')">+</button>
+        </div>
+
+        <div>
+            <button onclick="btnClick(4)">4</button>
+            <button onclick="btnClick(5)">5</button>
+            <button onclick="btnClick(6)">6</button>
+            <button onclick="btnClick('-')">-</button>
+        </div>
+
+        <div>
+            <button onclick="btnClick(1)">1</button>
+            <button onclick="btnClick(2)">2</button>
+            <button onclick="btnClick(3)">3</button>
+            <button onclick="btnClick('*')">x</button>
+        </div>
+
+        <div>
+            <button onclick="btnClick('.')">.</button>
+            <button onclick="btnClick(0)">0</button>
+            <button onclick="btnClick('/')">/</button>
+            <button onclick="equalsTo()">=</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
