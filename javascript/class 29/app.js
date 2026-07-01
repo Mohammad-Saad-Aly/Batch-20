@@ -1,7 +1,5 @@
 // var arr = [];
 
-const { jsx } = require("react/jsx-runtime");
-
 // var obj = {
 //   id: "01",
 //   name: "saad",
